@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function contaVogais(texto) {
+    var cont = 0;
+    texto=texto.toLowerCase();
+    for(var i=0; i<texto.length; i++){
+        if(texto.charAt(i)=="a"||texto.charAt(i)=="e"||texto.charAt(i)=="i"||texto.charAt(i)=="o"||texto.charAt(i)=="u"){
+            cont++; //Incrementa a contagem de vogais
+        }
+    }
+    return cont;
+}
+n = contaVogais("JavaScript");
+document.write("Número de vogais: " + n);
+    </script>
+</body>
+</html>

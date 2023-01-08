@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function pulaLinha(){
+            document.write("<br>");
+             document.write("<br>");
+        }
+        function mostra(frase){
+            document.write(frase);
+            pulaLinha();
+        }
+        const nome = 'douglas rodrigues'
+        mostra(nome);
+        var mostranome = nome.replace('douglas','sousa');
+        mostra(mostranome);
+
+        const nomeDouglas = 'douglas rodrigues sousa'
+        mostra(nomeDouglas);
+        var mostranomeDouglas = nomeDouglas.replace('o','x');
+        mostra(mostranomeDouglas);
+
+        const nomeDouglasdev = 'douglas rodrigues sousa'
+        mostra(nomeDouglasdev);
+        var mostranomeDouglas = nomeDouglas.replaceAll('o','xp');
+        mostra(mostranomeDouglas);
+
+        
+
+        
+    </script>
+</body>
+</html>

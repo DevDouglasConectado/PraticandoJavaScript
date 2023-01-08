@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang=“pt-br”>
+<head>
+<title>Curso de Javascript</title>
+<meta charset=“UTF-8”>
+<script>
+var tagP;
+</script>
+</head>
+<body>
+<p>Canal Fessor Bruno</p>
+<p>Curso de Javascript</p>
+<p>www.cfbcursos.com.br</p>
+<p>www.youtube.com.br</p>
+<p>cfbcursos.co.br</p>
+<br>
+
+<script>
+ var tagsP =document.getElementsByTagName("p")[2];
+document.write(tagsP.innerHTML);
+
+
+
+var tagsPP =document.getElementsByTagName("p");
+document.write(tagsPP[0].innerHTML);
+
+var tagsPPP =document.getElementsByTagName("p");
+tagsPP[3].style.color="#f00";
+
+</script>
+
+</body>
+</html>
